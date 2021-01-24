@@ -1,0 +1,149 @@
+body {
+    font-family: 'Exo', sans-serif;
+    color: #212121;
+}
+
+#home {
+    background-image: url('img/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+}
+
+#home .home-content {
+    position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+#home .name {
+    color: #eeff41;
+    font-weight: 400;
+}
+
+.btn-portfolio {
+    border: 1px solid #00897b;
+    border-radius: 0.25rem;
+    color: #f5f5f5;
+}
+.btn-portfolio:hover {
+    border: 1px solid #00897b;
+    background-color: #00897b;
+    color: #f5f5f5;
+}
+
+#about {
+    padding: 50px 0;
+}
+#about .about-highlight  {
+    color: #00897b;
+}
+
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.card-container {
+    position: relative;
+    width: 100%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.card-middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.card-container:hover .image {
+    opacity: 0.3;
+}
+.card-container:hover .card-middle {
+    opacity: 1;
+}
+.card-txt {
+    background-color: #f5f5f5;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.card-txt h3 {
+    color: #212121;
+}
+.card-txt p {
+    color: #00897b;
+}
+.btn-find {
+    color: #212121;
+    border: 1px solid #212121;
+    border-radius: 0.25rem;
+}
+.btn-find:hover {
+    background-color: #00897b;
+    color: #f5f5f5;
+    border-radius: 0.25rem;
+}
+
+#contact {
+    background-color: #424242;
+    color: #f5f5f5;
+    padding: 50px 0;
+}
+#contact h5 {
+    color: #00897b;
+}
+.form-control {
+    background-color: #212121;
+    color: #f5f5f5;
+    border: none;
+}
+#contact .btn {
+    color: #f5f5f5;
+}
+.btn-submit {
+    border: 1px solid #00897b;
+    border-radius: 0.25rem;
+}
+.btn-submit:hover {
+    background-color: #00897b;
+    color: #f5f5f5;
+    border-radius: 0.25rem;
+}
+
+footer {
+    background-color: #212121;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 25px 0;
+}
+.top-footer {
+    padding: 15px 0;
+}
+.bottom-footer {
+    padding: 15px 0;
+}
+.highlight {
+    color: #eeff41;
+}
+
+.social a {
+    font-size: 48px;
+    color: #eeff41;
+    text-align: center;
+}
+.social a:hover {
+    color: #00897b;
+}
